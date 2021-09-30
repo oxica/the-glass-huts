@@ -5,28 +5,71 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The glass huts</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400&family=Open+Sans:ital,wght@0,300;0,400;0,600;1,300&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
   </head>
   <body>
-    <header>
-      <img src="./images/logo.png" alt="Logo" width="70" height="65" />
-      <ul>
-        <li><a href=""></a>Home</li>
-        <li><a href=""></a>The hut</li>
-        <li><a href=""></a>The area</li>
-        <li><a href=""></a>Booking</li>
-        <li><a href=""></a>About us</li>
-        <li><a href=""></a>FAQ</li>
-      </ul>
-      <button>Book now</button>
+    <header class="header">
+      <div class="container header-container">
+        <a href=""
+          ><img
+            class="header-logo"
+            src="./images/logo.png"
+            alt="Logo"
+            width="70"
+            height="65"
+        /></a>
+
+        <ul class="header-list list">
+          <li class="header-item current">
+            <a class="header-link link" href="">Home</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">The hut</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">The area</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">Booking</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">About us</a>
+          </li>
+          <li class="header-item">
+            <a class="header-link link" href="">FAQ</a>
+          </li>
+        </ul>
+        <button class="header-btn btn" type="button">Book now</button>
+      </div>
     </header>
     <main>
       <!-- Hero -->
-      <section>
-        <img src="./images/house.jpg" alt="hut" width="1409" height="701" />
-        <h1>Find peace in the Forest</h1>
-        <p>Come and stay in out hut hotel near Mariager Fjord in Denmark</p>
-        <button>Book now</button>
-        <button>from 3.200 per night</button>
+      <section class="hero">
+        <img
+          class="hero-img"
+          src="./images/house.jpg"
+          alt="hut"
+          width="1409"
+          height="701"
+        />
+        <h1 class="hero-title">Find peace in the Forest</h1>
+        <p class="hero-text">
+          Come and stay in out hut hotel near Mariager Fjord in Denmark
+        </p>
+        <div class="hero-two-btn">
+          <button class="hero-btn" type="button">Book now</button>
+          <button class="hero-btn" type="button">from 3.200 per night</button>
+        </div>
       </section>
       <!-- About -->
       <section></section>
