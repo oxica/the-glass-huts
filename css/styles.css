@@ -291,4 +291,69 @@ body {
 
 .facilities-list {
   display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-left: -150px;
+  margin-top: -150px;
+}
+
+.facilities-item {
+  flex-basis: calc(100% / 4 - 150px);
+  margin-left: 150px;
+  margin-top: 150px;
+}
+.facilities-text::before {
+  display: block;
+  content: "";
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
+.fridge::before {
+  background-image: url(../images/1.svg);
+}
+
+.kitchenette::before {
+  background-image: url(../images/2.svg);
+}
+
+.coffee::before {
+  background-image: url(../images/3.svg);
+}
+
+.kettle::before {
+  background-image: url(../images/4.svg);
+}
+
+.parking::before {
+  background-image: url(../images/5.svg);
+}
+
+.views::before {
+  background-image: url(../images/6.svg);
+}
+
+.floor-heating::before {
+  background-image: url(../images/7.svg);
+}
+
+.electro::before {
+  background-image: url(../images/8.svg);
+}
+
+.wifi::before {
+  background-image: url(../images/9.svg);
+}
+
+.shower::before {
+  background-image: url(../images/10.svg);
+}
+
+.toilets::before {
+  background-image: url(../images/11.svg);
+}
+
+.towels::before {
+  background-image: url(../images/12.svg);
 }
