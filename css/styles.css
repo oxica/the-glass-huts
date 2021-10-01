@@ -85,6 +85,7 @@ body {
   content: "";
   width: 70px;
   height: 70px;
+  margin: 0 auto;
   margin-bottom: 20px;
 }
 
@@ -93,6 +94,7 @@ body {
 .header-container {
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .header-logo {
@@ -300,15 +302,17 @@ body {
 .facilities-list {
   display: flex;
   flex-wrap: wrap;
-  align-items: center;
-  margin-left: -150px;
-  margin-top: -150px;
+  align-items: flex-start;
+
+  margin-left: -130px;
+  margin-top: -130px;
 }
 
 .facilities-item {
-  flex-basis: calc(100% / 4 - 150px);
-  margin-left: 150px;
-  margin-top: 150px;
+  align-items: flex-start;
+  flex-basis: calc(100% / 4 - 130px);
+  margin-left: 130px;
+  margin-top: 130px;
 
   font-weight: 400;
   font-size: 18px;
