@@ -271,3 +271,24 @@ body {
 
   color: #333333;
 }
+
+/* --------------FASILITIES------------ */
+.facilities {
+  padding: 150px 290px 126px;
+  background-color: var(--secondary-bg-color);
+}
+
+.facilities-title {
+  margin-bottom: 100px;
+
+  font-weight: 300;
+  font-size: 40px;
+  line-height: 1;
+  text-align: center;
+
+  color: var(--secondary-text-color);
+}
+
+.facilities-list {
+  display: flex;
+}
