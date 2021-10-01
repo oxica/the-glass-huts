@@ -1,8 +1,11 @@
 :root {
   --primary-text-color: #000000;
   --secondary-text-color: #ffffff;
+  --title-text-color: #5b6460;
+  --read-more-text-color: #5b6460;
   --primary-bg-color: #ffffff;
   --secondary-bg-color: #5b6460;
+  --third-bg-color: #e9ece0;
   --accent-color: #ff0505;
   --primary-btn-color: #5b6460;
   --secondary-btn-color: #979797;
@@ -50,7 +53,7 @@ body {
 }
 
 .container {
-  width: 1210px;
+  width: 1408px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 146px;
@@ -66,6 +69,15 @@ body {
   align-items: center;
   text-align: center;
   cursor: pointer;
+}
+
+.text-read-more {
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--read-more-text-color);
 }
 
 /* ------------------HEADER------------------------ */
@@ -118,4 +130,144 @@ body {
 .header-btn:focus {
   background-color: var(--secondary-btn-color);
   color: var(--primary-text-color);
+}
+
+/* --------------------HERO---------------------- */
+.hero {
+  padding-top: 95px;
+  padding-bottom: 415px;
+
+  max-width: 1408px;
+  min-height: 700px;
+  margin-left: auto;
+  margin-right: auto;
+
+  background-image: url(../images/house.jpg);
+  background-color: var(--secondary-btn-color);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.hero-title {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 70px;
+  line-height: 1.03;
+
+  text-align: right;
+  padding-right: 70px;
+  color: var(--secondary-text-color);
+}
+
+.hero-container-text {
+  width: 500px;
+  padding-right: 154px;
+  margin-top: 34px;
+  margin-left: auto;
+}
+
+.hero-text {
+  font-family: "Mulish", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.4;
+
+  text-align: center;
+  color: var(--secondary-text-color);
+}
+
+/* ----------------CABINS--------------------- */
+
+.cabins {
+  padding-top: 146px;
+}
+
+.cabins-container {
+  display: flex;
+}
+
+.cabins-left {
+  margin-right: 73px;
+  padding-top: 87px;
+}
+
+.cabins-title {
+  margin-bottom: 50px;
+
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  color: var(--title-text-color);
+}
+
+.cabins-text {
+  margin-bottom: 22px;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+/* -------------------GALLERY--------------------- */
+.gallery {
+  padding-top: 146px;
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ----------------------MAP---------------------- */
+.map {
+  padding-top: 146px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.map-left {
+  width: 650px;
+  flex-basis: calc(100% / 2);
+  background-image: linear-gradient(
+      to right,
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/map2.jpg);
+  background-color: var(--secondary-bg-color);
+  background-repeat: no-repeat;
+  background-position: left top;
+  background-size: cover;
+}
+
+.map-svg {
+  display: block;
+
+  text-align: center;
+  margin-top: 226px;
+  margin-left: 265px;
+}
+
+.map-right {
+  flex-basis: calc(100% / 2);
+  padding: 150px 129px 149px 110px;
+
+  background-color: var(--third-bg-color);
+}
+
+.map-title {
+  margin-bottom: 50px;
+
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  color: #5b6460;
+}
+
+.map-text {
+  margin-bottom: 22px;
+
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.87;
+
+  color: #333333;
 }
