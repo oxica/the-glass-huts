@@ -80,6 +80,14 @@ body {
   color: var(--read-more-text-color);
 }
 
+.facilities-text::before {
+  display: block;
+  content: "";
+  width: 70px;
+  height: 70px;
+  margin-bottom: 20px;
+}
+
 /* ------------------HEADER------------------------ */
 
 .header-container {
@@ -301,13 +309,13 @@ body {
   flex-basis: calc(100% / 4 - 150px);
   margin-left: 150px;
   margin-top: 150px;
-}
-.facilities-text::before {
-  display: block;
-  content: "";
-  width: 70px;
-  height: 70px;
-  margin-bottom: 20px;
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.56;
+  text-align: center;
+
+  color: var(--secondary-text-color);
 }
 
 .fridge::before {
