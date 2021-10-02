@@ -369,3 +369,67 @@ body {
 .towels::before {
   background-image: url(../images/12.svg);
 }
+
+/* -----------------PHOTO------------------- */
+
+.photo {
+  display: flex;
+  padding-bottom: 150px;
+}
+
+/* ----------------CONTACTS---------------- */
+
+.contacts {
+  padding-bottom: 133px;
+}
+
+.contacts-container {
+  display: flex;
+}
+
+.contacts-left {
+  width: 385px;
+  margin-right: 345px;
+}
+
+.contacts-social-list {
+  display: flex;
+  padding: 0;
+  margin-top: 0;
+  list-style: none;
+  /* justify-content: space-between; */
+  align-items: center;
+  width: 50px;
+  height: 50px;
+}
+
+.contacts-social-item {
+  width: 50px;
+  height: 50px;
+}
+
+.contacts-social-item:not(:last-child) {
+  margin-right: 43px;
+}
+
+.contacts-social-link {
+  width: 50px;
+  height: 50px;
+  display: block;
+  border-radius: 50%;
+  color: #ffffff;
+  background-color: var(--primary-btn-color);
+}
+
+.contacts-social-link:hover,
+.contacts-social-link:focus {
+  color: #ffffff;
+  background-color: var(--accent-color);
+}
+
+.contacts-social-icon {
+  width: 21px;
+  height: 21px;
+  margin: 14px 0px 0px 14px;
+  fill: currentColor;
+}
