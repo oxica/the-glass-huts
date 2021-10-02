@@ -392,6 +392,38 @@ body {
   margin-right: 345px;
 }
 
+.contacts-title {
+  margin-bottom: 50px;
+
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1.5;
+
+  color: var(--title-text-color);
+}
+
+.contacts-address {
+  margin-bottom: 20px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.87;
+}
+
+.contacts-address-list {
+  margin-bottom: 50px;
+}
+
+.contacts-address-link {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.87;
+  color: var(--primary-text-color);
+}
+
 .contacts-social-list {
   display: flex;
   padding: 0;
