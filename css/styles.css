@@ -426,13 +426,8 @@ body {
 
 .contacts-social-list {
   display: flex;
-  padding: 0;
-  margin-top: 0;
-  list-style: none;
-  /* justify-content: space-between; */
+  justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
 }
 
 .contacts-social-item {
@@ -440,28 +435,33 @@ body {
   height: 50px;
 }
 
-.contacts-social-item:not(:last-child) {
-  margin-right: 43px;
+.contacts-social-item + .contacts-social-item {
+  margin-left: 43px;
 }
 
 .contacts-social-link {
-  width: 50px;
-  height: 50px;
-  display: block;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-radius: 50%;
-  color: #ffffff;
+
   background-color: var(--primary-btn-color);
 }
 
 .contacts-social-link:hover,
 .contacts-social-link:focus {
-  color: #ffffff;
   background-color: var(--accent-color);
+}
+
+.contacts-social-link:hover .contacts-social-icon,
+.contacts-social-link:focus .contacts-social-icon {
+  fill: var(--primary-btn-color);
 }
 
 .contacts-social-icon {
   width: 21px;
   height: 21px;
-  margin: 14px 0px 0px 14px;
-  fill: currentColor;
+  fill: #ffffff;
 }
